@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url("assets/images/bg.jpeg");
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    
+}
+body{
+    background-color: black;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.69;
+    background-color: black;
+}
+nav{
+    height: 12vh;
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    color: red;
+    height: 50vh;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.text{
+    height: 88vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    gap: 20px;
+    padding: 0px 30px;
+}
+.text> :nth-child(1){
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+.text> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.text> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 8px;
+    background-color: rgb(98, 96, 96);
+    opacity: 0.4;
+}
+.btn{
+    padding: 4px 27px;
+    font-weight: 600;
+    font-size: 15px;
+    background: transparent;
+    border: solid rgb(201, 97, 97);
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 9px 34px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    z-index: 10;;
+}
+div input{
+    color: white;
+    padding: 15px;
+    padding-right: 100px;
+    font-size: 19px;
+    font-weight: 400;
+    border-radius: 4px;
+    border-color: rgb(200 0 0 / 88%);
+    background-color: rgba(147, 197, 240, 0.2);
+    margin-right: 4px;
+    font-family: fangsong;
+}
+.textBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.btn-red-sn{
+    background-color: red;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 12px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 77vw;
+    height: 77%;
+    margin: auto;
+    color: white;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+} 
+.firstTxt{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+}
+.firstTxt :first-child{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+.firstTxt :nth-child(2){
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
